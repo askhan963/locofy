@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../Header/Header';
-import SignUpForm from '../SignUpForm/SignUpForm';
-import SocialSigns from '../SocialSigns/SocialSigns';
-import Footer from '../Footer/Footer';
+import Header from '../../Components/Header/Header';
+import SignUpForm from '../../Components/SignUpForm/SignUpForm';
+import SocialSigns from '../../Components/SocialSigns/SocialSigns';
+import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 
 const SignUpPage: React.FC = () => {
