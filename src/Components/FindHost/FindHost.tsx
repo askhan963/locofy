@@ -1,7 +1,7 @@
 import React from 'react';
 import AccommodationSearch from '../AccommodationSearch/AccommodationSearch';
-
-
+import StaysNearby from '../StaysNearby/StaysNearby';
+import CardsContainer from '../CardsContainer/CardsContainer';
 const FindHost: React.FC = () => {
   return (
     <section className="flex flex-col items-center px-8 pt-12 pb-8 w-full bg-zinc-50 bg-opacity-20 max-md:px-5 max-md:max-w-full">
@@ -15,7 +15,10 @@ const FindHost: React.FC = () => {
           </p>
         </header>
         <AccommodationSearch/>
+    <StaysNearby location = {'Home'} />
+    <CardsContainer />
       </div>
+
     </section>
   );
 };
